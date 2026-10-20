@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J_Styles | Coiffures &amp; Rendez-vous</title>
+<meta name="description" content="Découvrez mes coiffures, mes tarifs et réservez votre rendez-vous en ligne.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#accueil">J_Styles</a>
+  <nav>
+    <a href="#galerie">Galerie</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#reserver">Réserver</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="accueil" class="hero">
+  <h1>Des coiffures qui vous ressemblent</h1>
+  <p>Coiffeuse passionnée à Rennes. Découvrez mes créations et réservez en ligne.</p>
+  <a class="btn" href="#reserver">Prendre rendez-vous</a>
+</section>
+
+<section id="galerie">
+  <h2>Mes réalisations</h2>
+  <div class="grid">
+    <figure><img src="images/coiffure1.webp" alt="Coiffure 1" loading="lazy"><figcaption>Tresses</figcaption></figure>
+    <figure><img src="images/coiffure2.webp" alt="Coiffure 2" loading="lazy"><figcaption>Chignon</figcaption></figure>
+    <figure><img src="images/coiffure3.webp" alt="Coiffure 3" loading="lazy"><figcaption>Coupe</figcaption></figure>
+    <figure><img src="images/coiffure4.webp" alt="Coiffure 4" loading="lazy"><figcaption>Couleur</figcaption></figure>
+    <figure><img src="images/coiffure5.webp" alt="Coiffure 5" loading="lazy"><figcaption>Vanilles</figcaption></figure>
+    <figure><img src="images/coiffure6.webp" alt="Coiffure 6" loading="lazy"><figcaption>Mariage</figcaption></figure>
+  </div>
+</section>
+
+<section id="tarifs" class="alt">
+  <h2>Tarifs</h2>
+  <table>
+    <thead><tr><th>Prestation</th><th>Durée</th><th>Prix</th></tr></thead>
+    <tbody>
+      <tr><td>Coupe</td><td>1 h</td><td>25 €</td></tr>
+      <tr><td>Tresses</td><td>3 h</td><td>60 €</td></tr>
+      <tr><td>Chignon</td><td>1 h 30</td><td>45 €</td></tr>
+      <tr><td>Vanilles</td><td>2 h</td><td>40 €</td></tr>
+      <tr><td>Coiffure mariage</td><td>2 h</td><td>80 €</td></tr>
+    </tbody>
+  </table>
+  <p class="note">Tarifs indicatifs, à modifier selon vos prestations.</p>
+</section>
+
+<section id="reserver">
+  <h2>Prendre rendez-vous</h2>
+  <p>Choisissez votre prestation et un créneau disponible.</p>
+  <!-- Remplacez l'URL par votre lien Cal.com / Setmore / Calendly -->
+  <iframe src="https://cal.com/VOTRE-NOM" title="Réservation en ligne" loading="lazy"></iframe>
+  <p><a class="btn" href="https://cal.com/VOTRE-NOM" target="_blank" rel="noopener">Ouvrir dans un nouvel onglet</a></p>
+</section>
+
+<section id="contact" class="alt">
+  <h2>Contact</h2>
+  <p>Instagram : <a href="https://instagram.com/VOTRE-COMPTE">@votre-compte</a></p>
+  <p>WhatsApp : <a href="https://wa.me/33612983499">06 12 98 34 99</a></p>
+  <p>Rennes et alentours</p>
+</section>
+
+<footer>© <span id="y"></span> J_Styles. Tous droits réservés.</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
